@@ -1,0 +1,44 @@
+workflows:
+  ios-workflow:
+    name: iOS Workflow
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: PawMate
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.earlRynne.PawMate
+      vars:
+        BUNDLE_ID: AppBundle
+        XCODE_PROJECT: "PawMate.xcodeproj"
+        XCODE_SCHEME: "PawMate"
+        APP_STORE_APPLE_ID: 6794031908
+      xcode: latest
+    scripts:
+      - name: Clean Xcode user data
+        script: |
+          COUNT=$(find "$CM_BUILD_DIR" -type d -name "xcuserdata" 2>/dev/null | wc -l | tr -d ' ')
+          if [ "$COUNT" -gt 0 ]; then
+            echo "🔎 Found $COUNT xcuserdata director(ies):"
+            find "$CM_BUILD_DIR" -type d -name "xcuserdata" 2>/dev/null
+            find "$CM_BUILD_DIR" -type d -name "xcuserdata" -prune -exec rm -rf {} + 2>/dev/null
+            echo "✅ Removed $COUNT xcuserdata director(ies)"
+          else
+            echo "ℹ️ No xcuserdata found (repo already clean)"
+          fi
+      - name: Set up provisioning profiles settings on Xcode project
+        script: xcode-project use-profiles
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+          --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+          --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      app_store_connect:
+        auth: integration
