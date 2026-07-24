@@ -9,7 +9,7 @@ struct PetSettingsView: View {
     @State private var showCallback = false
 
     // TODO: replace with the real privacy policy URL when ready.
-    private let privacyURL = URL(string: "https://pawmate.app/privacy")!
+    private let privacyURL = URL(string: "https://www.termsfeed.com/live/551eb377-7d7d-41b7-b4a1-53f5044fd7b3")!
 
     var body: some View {
         NavigationStack {
