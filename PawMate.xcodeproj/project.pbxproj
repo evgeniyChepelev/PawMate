@@ -7,114 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55E89D063012877100119A65 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89D053012877100119A65 /* OneSignalExtension */; };
-		55E89D083012877100119A65 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89D073012877100119A65 /* OneSignalFramework */; };
-		55E89D0B3012878200119A65 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89D0A3012878200119A65 /* SocketIO */; };
-		55E89D0E3012878E00119A65 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89D0D3012878E00119A65 /* WebRTC */; };
-		55E89D6F301288A800119A65 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55E89D68301288A800119A65 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55E89E4230135ADA00119A65 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89E4130135ADA00119A65 /* SocketIO */; };
+		55E89F0630135B4100119A65 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89F0530135B4100119A65 /* WebRTC */; };
+		55E89F0930135B5600119A65 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89F0830135B5600119A65 /* OneSignalExtension */; };
+		55E89F0B30135B5600119A65 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 55E89F0A30135B5600119A65 /* OneSignalFramework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		55E89D6D301288A800119A65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55E89B7930127E7900119A65 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55E89D67301288A800119A65;
-			remoteInfo = OneSignalNotificationServiceExtension;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		55E89D74301288A800119A65 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				55E89D6F301288A800119A65 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		55E89B8130127E7900119A65 /* PawMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E89D68301288A800119A65 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E89E2630135A4200119A65 /* PawMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		55E89D633012886800119A65 /* Exceptions for "PawMate" folder in "PawMate" target */ = {
+		55E89E3630135A8100119A65 /* Exceptions for "PawMate" folder in "PawMate" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 55E89B8030127E7900119A65 /* PawMate */;
-		};
-		55E89D73301288A800119A65 /* Exceptions for "OneSignalNotificationServiceExtension" folder in "OneSignalNotificationServiceExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 55E89D67301288A800119A65 /* OneSignalNotificationServiceExtension */;
+			target = 55E89E2530135A4200119A65 /* PawMate */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		55E89B8330127E7900119A65 /* PawMate */ = {
+		55E89E2830135A4200119A65 /* PawMate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				55E89D633012886800119A65 /* Exceptions for "PawMate" folder in "PawMate" target */,
+				55E89E3630135A8100119A65 /* Exceptions for "PawMate" folder in "PawMate" target */,
 			);
 			path = PawMate;
-			sourceTree = "<group>";
-		};
-		55E89D69301288A800119A65 /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				55E89D73301288A800119A65 /* Exceptions for "OneSignalNotificationServiceExtension" folder in "OneSignalNotificationServiceExtension" target */,
-			);
-			path = OneSignalNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55E89B7E30127E7900119A65 /* Frameworks */ = {
+		55E89E2330135A4200119A65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E89D083012877100119A65 /* OneSignalFramework in Frameworks */,
-				55E89D0E3012878E00119A65 /* WebRTC in Frameworks */,
-				55E89D063012877100119A65 /* OneSignalExtension in Frameworks */,
-				55E89D0B3012878200119A65 /* SocketIO in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55E89D65301288A800119A65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				55E89F0B30135B5600119A65 /* OneSignalFramework in Frameworks */,
+				55E89F0630135B4100119A65 /* WebRTC in Frameworks */,
+				55E89F0930135B5600119A65 /* OneSignalExtension in Frameworks */,
+				55E89E4230135ADA00119A65 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55E89B7830127E7900119A65 = {
+		55E89E1D30135A4200119A65 = {
 			isa = PBXGroup;
 			children = (
-				55E89B8330127E7900119A65 /* PawMate */,
-				55E89D69301288A800119A65 /* OneSignalNotificationServiceExtension */,
-				55E89B8230127E7900119A65 /* Products */,
+				55E89E2830135A4200119A65 /* PawMate */,
+				55E89E2730135A4200119A65 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		55E89B8230127E7900119A65 /* Products */ = {
+		55E89E2730135A4200119A65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55E89B8130127E7900119A65 /* PawMate.app */,
-				55E89D68301288A800119A65 /* OneSignalNotificationServiceExtension.appex */,
+				55E89E2630135A4200119A65 /* PawMate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,108 +72,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55E89B8030127E7900119A65 /* PawMate */ = {
+		55E89E2530135A4200119A65 /* PawMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E89B8C30127E7A00119A65 /* Build configuration list for PBXNativeTarget "PawMate" */;
+			buildConfigurationList = 55E89E3130135A4300119A65 /* Build configuration list for PBXNativeTarget "PawMate" */;
 			buildPhases = (
-				55E89B7D30127E7900119A65 /* Sources */,
-				55E89B7E30127E7900119A65 /* Frameworks */,
-				55E89B7F30127E7900119A65 /* Resources */,
-				55E89D74301288A800119A65 /* Embed Foundation Extensions */,
+				55E89E2230135A4200119A65 /* Sources */,
+				55E89E2330135A4200119A65 /* Frameworks */,
+				55E89E2430135A4200119A65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				55E89D6E301288A800119A65 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				55E89B8330127E7900119A65 /* PawMate */,
+				55E89E2830135A4200119A65 /* PawMate */,
 			);
 			name = PawMate;
 			packageProductDependencies = (
-				55E89D053012877100119A65 /* OneSignalExtension */,
-				55E89D073012877100119A65 /* OneSignalFramework */,
-				55E89D0A3012878200119A65 /* SocketIO */,
-				55E89D0D3012878E00119A65 /* WebRTC */,
+				55E89E4130135ADA00119A65 /* SocketIO */,
+				55E89F0530135B4100119A65 /* WebRTC */,
+				55E89F0830135B5600119A65 /* OneSignalExtension */,
+				55E89F0A30135B5600119A65 /* OneSignalFramework */,
 			);
 			productName = PawMate;
-			productReference = 55E89B8130127E7900119A65 /* PawMate.app */;
+			productReference = 55E89E2630135A4200119A65 /* PawMate.app */;
 			productType = "com.apple.product-type.application";
-		};
-		55E89D67301288A800119A65 /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55E89D70301288A800119A65 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
-			buildPhases = (
-				55E89D64301288A800119A65 /* Sources */,
-				55E89D65301288A800119A65 /* Frameworks */,
-				55E89D66301288A800119A65 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				55E89D69301288A800119A65 /* OneSignalNotificationServiceExtension */,
-			);
-			name = OneSignalNotificationServiceExtension;
-			packageProductDependencies = (
-			);
-			productName = OneSignalNotificationServiceExtension;
-			productReference = 55E89D68301288A800119A65 /* OneSignalNotificationServiceExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55E89B7930127E7900119A65 /* Project object */ = {
+		55E89E1E30135A4200119A65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
-					55E89B8030127E7900119A65 = {
+					55E89E2530135A4200119A65 = {
 						CreatedOnToolsVersion = 26.4.1;
-					};
-					55E89D67301288A800119A65 = {
-						CreatedOnToolsVersion = 26.4.1;
+						LastSwiftMigration = 2640;
 					};
 				};
 			};
-			buildConfigurationList = 55E89B7C30127E7900119A65 /* Build configuration list for PBXProject "PawMate" */;
+			buildConfigurationList = 55E89E2130135A4200119A65 /* Build configuration list for PBXProject "PawMate" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 55E89B7830127E7900119A65;
+			mainGroup = 55E89E1D30135A4200119A65;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				55E89D043012877100119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
-				55E89D093012878200119A65 /* XCRemoteSwiftPackageReference "socket" */,
-				55E89D0C3012878D00119A65 /* XCRemoteSwiftPackageReference "WebRTC" */,
+				55E89E4030135ADA00119A65 /* XCRemoteSwiftPackageReference "socket" */,
+				55E89F0430135B4100119A65 /* XCRemoteSwiftPackageReference "WebRTC" */,
+				55E89F0730135B5600119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 55E89B8230127E7900119A65 /* Products */;
+			productRefGroup = 55E89E2730135A4200119A65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55E89B8030127E7900119A65 /* PawMate */,
-				55E89D67301288A800119A65 /* OneSignalNotificationServiceExtension */,
+				55E89E2530135A4200119A65 /* PawMate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55E89B7F30127E7900119A65 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55E89D66301288A800119A65 /* Resources */ = {
+		55E89E2430135A4200119A65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,14 +149,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55E89B7D30127E7900119A65 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55E89D64301288A800119A65 /* Sources */ = {
+		55E89E2230135A4200119A65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,16 +158,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		55E89D6E301288A800119A65 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55E89D67301288A800119A65 /* OneSignalNotificationServiceExtension */;
-			targetProxy = 55E89D6D301288A800119A65 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		55E89B8A30127E7A00119A65 /* Debug */ = {
+		55E89E2F30135A4300119A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		55E89B8B30127E7A00119A65 /* Release */ = {
+		55E89E3030135A4300119A65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,16 +273,15 @@
 			};
 			name = Release;
 		};
-		55E89B8D30127E7A00119A65 /* Debug */ = {
+		55E89E3230135A4300119A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PawMate/PawMate.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5R4X3W2HPB;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -392,7 +292,6 @@
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UIBackgroundModes = "audio remote-notification voip";
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
@@ -404,10 +303,56 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.earlRynne.PawMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlRynne.PawMate.PawMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ds;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		55E89E3330135A4300119A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PawMate/PawMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PawMate/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is used for in-app voice calls.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlRynne.PawMate.PawMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -420,155 +365,26 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Debug;
-		};
-		55E89B8E30127E7A00119A65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PawMate/PawMate.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5R4X3W2HPB;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PawMate/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is used for in-app voice calls.";
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UIBackgroundModes = "audio remote-notification voip";
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.earlRynne.PawMate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ds;
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Release;
-		};
-		55E89D71301288A800119A65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5R4X3W2HPB;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.earlRynne.PawMate.OneSignalNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ds2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		55E89D72301288A800119A65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5R4X3W2HPB;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.earlRynne.PawMate.OneSignalNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ds2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55E89B7C30127E7900119A65 /* Build configuration list for PBXProject "PawMate" */ = {
+		55E89E2130135A4200119A65 /* Build configuration list for PBXProject "PawMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55E89B8A30127E7A00119A65 /* Debug */,
-				55E89B8B30127E7A00119A65 /* Release */,
+				55E89E2F30135A4300119A65 /* Debug */,
+				55E89E3030135A4300119A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E89B8C30127E7A00119A65 /* Build configuration list for PBXNativeTarget "PawMate" */ = {
+		55E89E3130135A4300119A65 /* Build configuration list for PBXNativeTarget "PawMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55E89B8D30127E7A00119A65 /* Debug */,
-				55E89B8E30127E7A00119A65 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55E89D70301288A800119A65 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55E89D71301288A800119A65 /* Debug */,
-				55E89D72301288A800119A65 /* Release */,
+				55E89E3230135A4300119A65 /* Debug */,
+				55E89E3330135A4300119A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -576,15 +392,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		55E89D043012877100119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.5.5;
-			};
-		};
-		55E89D093012878200119A65 /* XCRemoteSwiftPackageReference "socket" */ = {
+		55E89E4030135ADA00119A65 /* XCRemoteSwiftPackageReference "socket" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
 			requirement = {
@@ -592,7 +400,7 @@
 				kind = branch;
 			};
 		};
-		55E89D0C3012878D00119A65 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+		55E89F0430135B4100119A65 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stasel/WebRTC.git";
 			requirement = {
@@ -600,30 +408,38 @@
 				minimumVersion = 150.0.0;
 			};
 		};
+		55E89F0730135B5600119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		55E89D053012877100119A65 /* OneSignalExtension */ = {
+		55E89E4130135ADA00119A65 /* SocketIO */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 55E89D043012877100119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
-			productName = OneSignalExtension;
-		};
-		55E89D073012877100119A65 /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 55E89D043012877100119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
-			productName = OneSignalFramework;
-		};
-		55E89D0A3012878200119A65 /* SocketIO */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 55E89D093012878200119A65 /* XCRemoteSwiftPackageReference "socket" */;
+			package = 55E89E4030135ADA00119A65 /* XCRemoteSwiftPackageReference "socket" */;
 			productName = SocketIO;
 		};
-		55E89D0D3012878E00119A65 /* WebRTC */ = {
+		55E89F0530135B4100119A65 /* WebRTC */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 55E89D0C3012878D00119A65 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			package = 55E89F0430135B4100119A65 /* XCRemoteSwiftPackageReference "WebRTC" */;
 			productName = WebRTC;
+		};
+		55E89F0830135B5600119A65 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55E89F0730135B5600119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		55E89F0A30135B5600119A65 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55E89F0730135B5600119A65 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 55E89B7930127E7900119A65 /* Project object */;
+	rootObject = 55E89E1E30135A4200119A65 /* Project object */;
 }
